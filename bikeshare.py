@@ -1,5 +1,6 @@
 #BIKESHARE PYTHON FILE Changes will be MARKED IN CAPS
 #Other changes will be added in one week
+#SEE IF MASTER WORKS
 
 #This imports the pandas
 import datetime
@@ -19,7 +20,7 @@ def get_city():
     elif city == 'Washington' or city == 'W':
         return 'washington.csv'
     else:
-        print("\nData for that city does not exist. Try again.")
+        print("\nData for that city does not exist. Let's try again.")
         return get_city()
 
 
