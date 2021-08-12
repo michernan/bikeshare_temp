@@ -39,7 +39,7 @@ def get_time_period():
 
 def get_month():
     '''Convert month into string representation'''
-    month = input('\nWhich month? January, February, March, April, May, or June?\n').title()
+    month = input('\nWhich month do you want data for January, February, March, April, May, or June?\n').title()
     if month == 'January':
         return '01'
     elif month == 'February':
